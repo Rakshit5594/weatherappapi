@@ -4,7 +4,7 @@ import requests  # For making HTTP requests to get data from web APIs
 
 # Define constants for the API
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"  # Base URL for the OpenWeatherMap API
-API_KEY = "7a47c229ca273fa067b768a93ef3e1f9"  # Your personal API key for authenticating with the OpenWeatherMap API
+API_KEY = "your-api-key"  # Your personal API key for authenticating with the OpenWeatherMap API
 CITY = input("Enter your city: ")  # Prompt the user to input the city name for which they want the weather info
 
 # Function to convert temperature from Kelvin to Celsius and Fahrenheit
